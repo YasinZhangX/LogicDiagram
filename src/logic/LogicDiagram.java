@@ -44,15 +44,25 @@ public class LogicDiagram {
         print(root.getData());
         TreeNode node = root.getlChild();
         
+        type = judgementEx(in, node);
+        
+        return type;
+    }
+    
+    public Types judgementEx(Input in, TreeNode node) {
+        Types type = null;
+        
         if (node.getData() instanceof Types) {
             return (Types) node.getData();
         }
         
         print(node.getData());
         if (in.getAnswer()) {
-            node = node.getlChild();
-            judgment(in);
+            type = judgementEx(in, node.getlChild());
+        } else {
+            type = judgementEx(in, node.getrChild());
         }
+        
         return type;
     }
 }

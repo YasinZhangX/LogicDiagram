@@ -34,7 +34,8 @@ public class TestLogicDiagram {
     @Test
     public void test() {
         LogicDiagram ld = new LogicDiagram(question_list);
-        ld.judgment(cIn);
+        Types type = ld.judgment(cIn);
+        Print.print(type);
     }
 
 }
