@@ -1,11 +1,11 @@
 package logic;
 
 public enum Types {
-    EXCELLENT, GOOD, BAD;
+    EXCELLENT, GOOD, OK, BAD;
     
     public String toString() {
         String id = name();
-        String lower = id.substring(1).toLowerCase();
-        return id.charAt(0) + lower;
+        String lower = id.toLowerCase();
+        return "The Grade is " + lower + ".";
     }
 }

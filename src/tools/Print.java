@@ -23,4 +23,9 @@ public class Print {
     printf(String format, Object... args) {
       return System.out.printf(format, args);
     }
+    
+    // Print error with a newline:
+    public static void eprint(Object obj) {
+      System.err.println(obj);
+    }
 }
