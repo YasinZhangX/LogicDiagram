@@ -9,6 +9,10 @@ import logic.Types;
 import tools.ConsoleInput;
 import tools.Print;
 
+/**
+ * @author Yasin Zhang
+ * @version 1.0
+ */
 public class TestExample {
     public static void main(String[] args) {
         ArrayList<TreeNode> question_list = new ArrayList<>();

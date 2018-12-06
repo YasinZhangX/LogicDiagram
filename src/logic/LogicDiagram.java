@@ -6,6 +6,10 @@ import tools.Input;
 
 import static tools.Print.*;
 
+/**
+ * @author Yasin Zhang
+ * @version 1.0
+ */
 public class LogicDiagram {
     TreeNode root = new TreeNode("Start");
     

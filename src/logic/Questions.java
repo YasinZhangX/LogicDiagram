@@ -1,5 +1,9 @@
 package logic;
 
+/**
+ * @author Yasin Zhang
+ * @version 1.0
+ */
 public enum Questions {
     // left is yes branch; right is no branch
     Q1("Is the score higher than 90?", Types.EXCELLENT, 2),

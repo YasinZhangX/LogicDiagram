@@ -1,5 +1,9 @@
 package logic;
 
+/**
+ * @author Yasin Zhang
+ * @version 1.0
+ */
 public class TreeNode {
     private Object mData;
     private TreeNode mParent;

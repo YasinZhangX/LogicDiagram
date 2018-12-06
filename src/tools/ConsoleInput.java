@@ -5,6 +5,10 @@ import java.util.Scanner;
 
 import static tools.Print.*;
 
+/**
+ * @author Yasin Zhang
+ * @version 1.0
+ */
 public class ConsoleInput extends Input {   
     public ConsoleInput(InputStream source) {
         this.sc = new Scanner(source);
