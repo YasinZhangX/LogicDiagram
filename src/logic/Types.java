@@ -5,11 +5,11 @@ package logic;
  * @version 1.0
  */
 public enum Types {
-    EXCELLENT, GOOD, OK, BAD;
+    MAMMAL, BIRD, FISH, REPTILE;
     
     public String toString() {
         String id = name();
         String lower = id.toLowerCase();
-        return "The Grade is " + lower + ".";
+        return "This animal is " + lower + ".";
     }
 }

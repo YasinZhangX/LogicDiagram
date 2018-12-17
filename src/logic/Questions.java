@@ -6,9 +6,9 @@ package logic;
  */
 public enum Questions {
     // left is yes branch; right is no branch
-    Q1("Is the score higher than 90?", Types.EXCELLENT, 2),
-    Q2("Is the score higher than 80?", Types.GOOD, 3),
-    Q3("Is the score higher than 60?", Types.OK, Types.BAD);
+    Q1("Is this animal warm-blooded?", 2, 3),
+    Q2("Is this animal nurse their young using milk?", Types.MAMMAL, Types.BIRD),
+    Q3("Is this animal breath under water using gills?", Types.FISH, Types.REPTILE);
     
     private String question;
     private Object lBranch;
